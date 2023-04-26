@@ -1,0 +1,976 @@
+[
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 1,
+      "label": "读数据表",
+      "name": "读数据表",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "1-1",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 2,
+      "label": "字段基本信息统计",
+      "name": "字段基本信息统计",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "2-1",
+        "group": "top"
+      },
+      {
+        "id": "2-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 3,
+      "label": "查看唯一值及数量",
+      "name": "查看唯一值及数量",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "3-1",
+        "group": "top"
+      },
+      {
+        "id": "3-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 4,
+      "label": "数据相关性",
+      "name": "数据相关性",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "4-1",
+        "group": "top"
+      },
+      {
+        "id": "4-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 5,
+      "label": "缺失值检测",
+      "name": "缺失值检测",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "5-1",
+        "group": "top"
+      },
+      {
+        "id": "5-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 6,
+      "label": "单变量异常值检测",
+      "name": "单变量异常值检测",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "6-1",
+        "group": "top"
+      },
+      {
+        "id": "6-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 7,
+      "label": "重复值检测",
+      "name": "重复值检测",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "7-1",
+        "group": "top"
+      },
+      {
+        "id": "7-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 8,
+      "label": "样本相似度计算",
+      "name": "样本相似度计算",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "8-1",
+        "group": "top"
+      },
+      {
+        "id": "8-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 9,
+      "label": "列删除",
+      "name": "列删除",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "9-1",
+        "group": "top"
+      },
+      {
+        "id": "9-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 10,
+      "label": "训练/测试集划分",
+      "name": "训练/测试集划分",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "10-1",
+        "group": "top"
+      },
+      {
+        "id": "10-2",
+        "group": "bottom"
+      },
+      {
+        "id": "10-3",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 11,
+      "label": "数字编码",
+      "name": "数字编码",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "11-1",
+        "group": "top"
+      },
+      {
+        "id": "11-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 12,
+      "label": "人工数字编码",
+      "name": "人工数字编码",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "12-1",
+        "group": "top"
+      },
+      {
+        "id": "12-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 13,
+      "label": "类型转换",
+      "name": "类型转换",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "13-1",
+        "group": "top"
+      },
+      {
+        "id": "13-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 14,
+      "label": "列重命名",
+      "name": "列重命名",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "14-1",
+        "group": "top"
+      },
+      {
+        "id": "14-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 15,
+      "label": "数据列计算",
+      "name": "数据列计算",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "15-1",
+        "group": "top"
+      },
+      {
+        "id": "15-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 16,
+      "label": "数据值替换",
+      "name": "数据值替换",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "16-1",
+        "group": "top"
+      },
+      {
+        "id": "16-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 17,
+      "label": "缺失值填补",
+      "name": "缺失值填补",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "17-1",
+        "group": "top"
+      },
+      {
+        "id": "17-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 18,
+      "label": "数据按列值排序",
+      "name": "数据按列值排序",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "18-1",
+        "group": "top"
+      },
+      {
+        "id": "18-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 19,
+      "label": "OneHot编码",
+      "name": "OneHot编码",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "19-1",
+        "group": "top"
+      },
+      {
+        "id": "19-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 20,
+      "label": "Z-Score标准化",
+      "name": "Z-Score标准化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "20-1",
+        "group": "top"
+      },
+      {
+        "id": "20-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 21,
+      "label": "Min-Max标准化",
+      "name": "Min-Max标准化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "21-1",
+        "group": "top"
+      },
+      {
+        "id": "21-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 22,
+      "label": "Logistic标准化",
+      "name": "Logistic标准化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "22-1",
+        "group": "top"
+      },
+      {
+        "id": "22-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 23,
+      "label": "最大绝对值标准化",
+      "name": "最大绝对值标准化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "23-1",
+        "group": "top"
+      },
+      {
+        "id": "23-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 24,
+      "label": "等距离散化",
+      "name": "等距离散化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "24-1",
+        "group": "top"
+      },
+      {
+        "id": "24-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 25,
+      "label": "等频离散化",
+      "name": "等频离散化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "25-1",
+        "group": "top"
+      },
+      {
+        "id": "25-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 26,
+      "label": "Kmeans离散化",
+      "name": "Kmeans离散化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "26-1",
+        "group": "top"
+      },
+      {
+        "id": "26-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 27,
+      "label": "卡方离散化",
+      "name": "卡方离散化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "27-1",
+        "group": "top"
+      },
+      {
+        "id": "27-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 28,
+      "label": "决策树离散化",
+      "name": "决策树离散化",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "28-1",
+        "group": "top"
+      },
+      {
+        "id": "28-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 29,
+      "label": "主成分分析",
+      "name": "主成分分析",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "29-1",
+        "group": "top"
+      },
+      {
+        "id": "29-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 30,
+      "label": "线性判别分析",
+      "name": "线性判别分析",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "30-1",
+        "group": "top"
+      },
+      {
+        "id": "30-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 31,
+      "label": "线性回归",
+      "name": "线性回归",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "31-1",
+        "group": "top"
+      },
+      {
+        "id": "31-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 32,
+      "label": "LASSO",
+      "name": "LASSO",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "32-1",
+        "group": "top"
+      },
+      {
+        "id": "32-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 33,
+      "label": "岭回归",
+      "name": "岭回归",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "33-1",
+        "group": "top"
+      },
+      {
+        "id": "33-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 34,
+      "label": "弹性网络",
+      "name": "弹性网络",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "34-1",
+        "group": "top"
+      },
+      {
+        "id": "34-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 35,
+      "label": "K近邻回归",
+      "name": "K近邻回归",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "35-1",
+        "group": "top"
+      },
+      {
+        "id": "35-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 36,
+      "label": "回归决策树",
+      "name": "回归决策树",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "36-1",
+        "group": "top"
+      },
+      {
+        "id": "36-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 37,
+      "label": "朴素贝叶斯",
+      "name": "朴素贝叶斯",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "37-1",
+        "group": "top"
+      },
+      {
+        "id": "37-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 38,
+      "label": "线性SVC",
+      "name": "线性SVC",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "38-1",
+        "group": "top"
+      },
+      {
+        "id": "38-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 39,
+      "label": "支持向量机",
+      "name": "支持向量机",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "39-1",
+        "group": "top"
+      },
+      {
+        "id": "39-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 40,
+      "label": "分类决策树",
+      "name": "分类决策树",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "40-1",
+        "group": "top"
+      },
+      {
+        "id": "40-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 41,
+      "label": "逻辑回归",
+      "name": "逻辑回归",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "41-1",
+        "group": "top"
+      },
+      {
+        "id": "41-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 42,
+      "label": "K近邻",
+      "name": "K近邻",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "42-1",
+        "group": "top"
+      },
+      {
+        "id": "42-2",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 43,
+      "label": "K-Means聚类",
+      "name": "K-Means聚类",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "43-1",
+        "group": "top"
+      },
+      {
+        "id": "43-2",
+        "group": "bottom"
+      },
+      {
+        "id": "43-3",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 44,
+      "label": "DBSCAN",
+      "name": "DBSCAN",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "44-1",
+        "group": "top"
+      },
+      {
+        "id": "44-2",
+        "group": "bottom"
+      },
+      {
+        "id": "44-3",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 45,
+      "label": "聚合聚类",
+      "name": "聚合聚类",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "45-1",
+        "group": "top"
+      },
+      {
+        "id": "45-2",
+        "group": "bottom"
+      },
+      {
+        "id": "45-3",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 46,
+      "label": "MeanShift",
+      "name": "MeanShift",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "46-1",
+        "group": "top"
+      },
+      {
+        "id": "46-2",
+        "group": "bottom"
+      },
+      {
+        "id": "46-3",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 47,
+      "label": "谱聚类",
+      "name": "谱聚类",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "47-1",
+        "group": "top"
+      },
+      {
+        "id": "47-2",
+        "group": "bottom"
+      },
+      {
+        "id": "47-3",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 48,
+      "label": "模型预测",
+      "name": "模型预测",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "48-1",
+        "group": "top"
+      },
+      {
+        "id": "48-2",
+        "group": "top"
+      },
+      {
+        "id": "48-3",
+        "group": "bottom"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 49,
+      "label": "回归模型评估",
+      "name": "回归模型评估",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "49-1",
+        "group": "top"
+      },
+      {
+        "id": "49-2",
+        "group": "top"
+      }
+    ]
+  },
+  {
+    "shape": "dagNode",
+    "data": {
+      "id": 50,
+      "label": "分类模型评估",
+      "name": "分类模型评估",
+      "status": "default"
+    },
+    "ports": [
+      {
+        "id": "50-1",
+        "group": "top"
+      },
+      {
+        "id": "50-2",
+        "group": "top"
+      }
+    ]
+  }
+]
